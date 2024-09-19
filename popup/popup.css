@@ -1,0 +1,79 @@
+/* Estilos gerais do body */
+body {
+  width: 300px; /* Largura do popup */
+  font-family: 'Arial', sans-serif; /* Fonte padrão */
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  color: #333; /* Cor do texto */
+  padding: 15px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo dos títulos */
+h2, h3 {
+  margin: 0;
+  padding: 10px 0;
+  color: #4A90E2; /* Cor azul para os títulos */
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"], input[type="date"], input[type="time"] {
+  width: 100%; /* Largura total */
+  padding: 10px; /* Preenchimento */
+  margin-bottom: 10px; /* Espaçamento inferior */
+  border: 1px solid #ccc; /* Borda suave */
+  border-radius: 4px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo do botão */
+button {
+  width: 100%; /* Largura total */
+  padding: 10px; /* Preenchimento */
+  background-color: #4A90E2; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove a borda padrão */
+  border-radius: 4px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor de mão para indicar interatividade */
+  transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+/* Efeito de hover no botão */
+button:hover {
+  background-color: #357ABD; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+/* Estilo da lista de tarefas */
+#task-list {
+  margin-top: 15px; /* Espaçamento superior */
+  list-style-type: none; /* Remove marcadores da lista */
+  padding: 0; /* Remove preenchimento padrão */
+}
+
+/* Estilo dos itens da lista */
+#task-list li {
+  display: flex; /* Flexbox para alinhar itens */
+  justify-content: space-between; /* Espaçamento entre o texto e o botão */
+  align-items: center; /* Alinhamento vertical */
+  padding: 10px; /* Preenchimento */
+  border: 1px solid #e1e1e1; /* Borda suave */
+  border-radius: 4px; /* Bordas arredondadas */
+  margin-bottom: 10px; /* Espaçamento inferior entre itens */
+  background-color: #fff; /* Cor de fundo branca para as tarefas */
+  font-family: 'Arial', sans-serif; /* Garante que a mesma fonte seja usada */
+}
+
+/* Estilo do botão de excluir */
+#task-list button {
+  background-color: #E74C3C; /* Cor de fundo vermelho para o botão de excluir */
+  padding: 5px 10px; /* Preenchimento */
+  border: none; /* Remove a borda padrão */
+  border-radius: 4px; /* Bordas arredondadas */
+  color: white; /* Cor do texto do botão */
+  cursor: pointer; /* Cursor de mão para indicar interatividade */
+}
+
+#task-list button:hover {
+  background-color: #C0392B; /* Cor de fundo mais escura ao passar o mouse */
+}
